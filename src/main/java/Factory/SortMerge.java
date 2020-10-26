@@ -1,3 +1,5 @@
+package Factory;
+
 public class SortMerge implements ISort{
     private int[] array;
 

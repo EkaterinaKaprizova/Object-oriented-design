@@ -1,3 +1,5 @@
+package Factory;
+
 public class FactoryArr {
     public static void main(String[] args)
     {

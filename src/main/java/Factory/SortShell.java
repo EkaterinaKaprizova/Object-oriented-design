@@ -1,3 +1,5 @@
+package Factory;
+
 public class SortShell implements ISort {
 
     private int[] array;

@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="" />
+    <list default="true" id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/AFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/FactoryRect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/FactoryRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/PicturesOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/RectPicture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/RectPictureResize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/ResizePictures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/RoundPicture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/RoundPictureResize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/FactoryArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ISort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/ISort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SortMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/SortMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SortRadix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/SortRadix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SortShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/SortShell.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +42,10 @@
   <component name="ProjectId" id="1jEVi0kqZsNkDq3T6mK0ybK4uTE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Thumbtack/thumbtack_online_school_2020_2_ekaterina_kaprizova" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -37,6 +60,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractFactory.Main" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="" />
@@ -45,6 +88,31 @@
       <option name="presentableId" value="Default" />
       <updated>1603369360829</updated>
     </task>
+    <task id="LOCAL-00001" summary="Factory">
+      <created>1603370512967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603370512967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory" />
   </component>
 </project>
