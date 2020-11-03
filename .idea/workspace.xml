@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Granatik.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/ApplicationBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Icon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/IconBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Permissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/DiskFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/ExcelTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/TextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Types.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,13 +50,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Builder.Main" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prototype.Main" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -111,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603685617676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Builder">
+      <created>1604127419952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604127419952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory" />
     <MESSAGE value="AbstractFactory" />
-    <option name="LAST_COMMIT_MESSAGE" value="AbstractFactory" />
+    <MESSAGE value="Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder" />
   </component>
 </project>
