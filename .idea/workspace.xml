@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/DiskFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/ExcelTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Permissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/TextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Builder.Main" />
       <module name="Patterns" />
@@ -77,6 +73,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.Main" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactory.Main" />
       <module name="Patterns" />
@@ -92,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -127,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604127419952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prototype">
+      <created>1604383492540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604383492556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +164,7 @@
     <MESSAGE value="Factory" />
     <MESSAGE value="AbstractFactory" />
     <MESSAGE value="Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder" />
+    <MESSAGE value="Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
   </component>
 </project>
