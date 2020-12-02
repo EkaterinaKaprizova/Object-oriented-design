@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/ConcreteStrategyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/ConcreteStrategyB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/ConcreteStrategyC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Template_method/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Template_method/ConcreteClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Template_method/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606889394500</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Стратегия">
+      <created>1606889652744</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606889652744</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +306,7 @@
     <MESSAGE value="Снимок" />
     <MESSAGE value="Наблюдатель" />
     <MESSAGE value="Состояние" />
-    <option name="LAST_COMMIT_MESSAGE" value="Состояние" />
+    <MESSAGE value="Стратегия" />
+    <option name="LAST_COMMIT_MESSAGE" value="Стратегия" />
   </component>
 </project>
