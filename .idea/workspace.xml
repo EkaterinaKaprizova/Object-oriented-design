@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/ConcreteState1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/ConcreteState2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/ConcreteStrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/ConcreteStrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/ConcreteStrategyC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy/Strategy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Observer.Main" />
       <module name="Patterns" />
@@ -63,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Proxy.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.Main" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Proxy.*" />
+          <option name="PATTERN" value="Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606888899341</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Состояние">
+      <created>1606889394500</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606889394500</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +301,7 @@
     <MESSAGE value="Посредник" />
     <MESSAGE value="Снимок" />
     <MESSAGE value="Наблюдатель" />
-    <option name="LAST_COMMIT_MESSAGE" value="Наблюдатель" />
+    <MESSAGE value="Состояние" />
+    <option name="LAST_COMMIT_MESSAGE" value="Состояние" />
   </component>
 </project>
