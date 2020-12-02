@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Memento/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/ConcreteObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,13 +49,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Flyweifght.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.Main" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Flyweifght.*" />
+          <option name="PATTERN" value="Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606887554329</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Снимок">
+      <created>1606888281154</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606888281154</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +285,7 @@
     <MESSAGE value="Команда" />
     <MESSAGE value="Итератор" />
     <MESSAGE value="Посредник" />
-    <option name="LAST_COMMIT_MESSAGE" value="Посредник" />
+    <MESSAGE value="Снимок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Снимок" />
   </component>
 </project>
