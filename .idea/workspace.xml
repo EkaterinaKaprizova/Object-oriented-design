@@ -2,25 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/Amplifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/CDPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/PopcornPopper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/StreamingPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/TheaterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/TheaterLights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Facade/Tuner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Flyweifght/ConiferTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Flyweifght/DeciduousTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Flyweifght/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Flyweifght/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Flyweifght/TreeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Proxy/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Proxy/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Command/ConcreteCommandTurnOffTv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Command/ConcreteCommandTurnOnTv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Command/InvokerRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Command/ReceiverTv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/ClimbingFriendArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/ClimbingFriendStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/FriendViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorClimbingFriendArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorClimbingFriendStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorMetalFriendArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/MetalFriendArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/ATMDispenseChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/DispenseChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Dollar10Dispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Dollar20Dispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Dollar50Dispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Facade.Main" />
       <module name="Patterns" />
@@ -103,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Composite.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Сhain_of_responsibility.Main" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Composite.*" />
+          <option name="PATTERN" value="Сhain_of_responsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +215,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606037724318</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Facade">
+      <created>1606737491674</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606737491674</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Flyweight">
+      <created>1606737514723</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606737514723</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Proxy">
+      <created>1606737526673</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606737526673</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +262,9 @@
     <MESSAGE value="Bridge" />
     <MESSAGE value="Composite" />
     <MESSAGE value="Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator" />
+    <MESSAGE value="Facade" />
+    <MESSAGE value="Flyweight" />
+    <MESSAGE value="Proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy" />
   </component>
 </project>
