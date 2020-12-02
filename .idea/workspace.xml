@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3910b298-cbaa-42df-b499-3a100d3d9394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Command/ConcreteCommandTurnOffTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Command/ConcreteCommandTurnOnTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Command/InvokerRemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Command/ReceiverTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/ClimbingFriendArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/ClimbingFriendStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/FriendViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorClimbingFriendArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorClimbingFriendStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/IteratorMetalFriendArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/MetalFriendArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/ATMDispenseChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/DispenseChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Dollar10Dispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Dollar20Dispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Dollar50Dispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Сhain_of_responsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mediator/ActionLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mediator/ButtonAction1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mediator/ButtonAction2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Facade.Main" />
       <module name="Patterns" />
@@ -121,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Decorator.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mediator.Main" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Decorator.*" />
+          <option name="PATTERN" value="Mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +215,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606737526673</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Цепочка обязанностей">
+      <created>1606886367644</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606886367644</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Команда">
+      <created>1606886391925</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606886391925</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Итератор">
+      <created>1606886404500</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606886404500</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +265,9 @@
     <MESSAGE value="Facade" />
     <MESSAGE value="Flyweight" />
     <MESSAGE value="Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proxy" />
+    <MESSAGE value="Цепочка обязанностей" />
+    <MESSAGE value="Команда" />
+    <MESSAGE value="Итератор" />
+    <option name="LAST_COMMIT_MESSAGE" value="Итератор" />
   </component>
 </project>
